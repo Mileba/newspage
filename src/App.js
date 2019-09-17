@@ -7,11 +7,11 @@ import './App.css';
 const DEFAULT_QUERY = 'redux';
 const DEFAULT_HPP = '100';
 
-const PATH_BASE = 'https://content.guardianapis.com/search?api-key=6ef0eef4-47ed-4690-bc68-7053ada80899.';
+const PATH_BASE = 'https://content.guardianapis.com';
 const PATH_SEARCH = '/search';
-const PARAM_SEARCH = 'query=';
-const PARAM_PAGE = 'page=';
-const PARAM_HPP = 'hitsPerPage=';
+const PARAM_SEARCH = 'q=';
+const PARAM_PAGE = '/tags';
+const PARAM_HPP = 'api-key=6ef0eef4-47ed-4690-bc68-7053ada80899.';
 
 const largeColumn = {
   width: '40%',
